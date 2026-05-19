@@ -1,0 +1,13 @@
+//Example 1: Testing with a simple string   
+const lengthOfLastWord = function(s) {
+    s = s.trim(); 
+    return s.length - s.lastIndexOf(" ") - 1;
+};
+console.log(lengthOfLastWord("Hello World"));
+
+//Example 2: Testing with multiple spaces
+const lengthOfLastWords= function(t) {
+    t= t.trim(); 
+    return t.length - t.lastIndexOf(" ") - 1;
+};
+console.log(lengthOfLastWords("fly me   to  the moon"));
