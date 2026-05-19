@@ -1,0 +1,31 @@
+// Function 1: Browser Launcher using if-else
+function launchBrowser(browserName) {
+    if (browserName.toLowerCase() === "mozilla") {
+        console.log("Launching the Mozilla Firefox browser...");
+    } else {
+        console.log("Launching " + browserName + " browser as fallback/otherwise...");
+    }
+}
+
+// Function 2: Test Runner using switch case
+function runTests(testType) {
+    switch (testType.toLowerCase()) {
+        case "smoke":
+            console.log("Executing Smoke Tests: Checking critical functionalities.");
+            break;
+        case "sanity":
+            console.log("Executing Sanity Tests: Verifying specific component changes.");
+            break;
+        case "regression":
+            console.log("Executing Regression Tests: Ensuring no existing features are broken.");
+            break;
+        default:
+            console.log("Default executing: Running Smoke Tests.");
+    }
+}
+
+// Calling the functions
+launchBrowser("Mozilla");
+runTests("Regression");
+runTests("InvalidTestType"); // Tests the default case
+
