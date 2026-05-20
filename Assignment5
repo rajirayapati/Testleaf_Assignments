@@ -1,0 +1,26 @@
+const colors =["orange", "blue", "green", "yellow", "red"];
+console.log(colors);
+colors.push("purple");
+console.log(colors);
+colors.pop();
+console.log(colors);
+colors.shift();
+console.log(colors);
+colors.unshift("pink");
+console.log(colors);
+colors.includes("blue");
+console.log(colors);
+colors.includes("blue");            
+console.log(colors.includes("blue"));
+console.log(colors);
+colors.indexOf("green");
+console.log(colors);
+console.log(colors.indexOf("green"));
+const results = colors.join(", ");
+console.log(results);
+const reversedResults = colors.reverse().join(", ");
+console.log(reversedResults);
+const sortedResults = colors.sort().join(", ");
+console.log(sortedResults);
+
+
