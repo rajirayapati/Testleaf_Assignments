@@ -1,3 +1,6 @@
+
+// new assignmentS
+
 const colors =["orange", "blue", "green", "yellow", "red"];
 console.log(colors);
 colors.push("purple");
