@@ -42,6 +42,7 @@ export default defineConfig({
     screenshot:'on',
     video:'on',
     permissions: [],
+  
     
   },
  
@@ -52,6 +53,7 @@ export default defineConfig({
     {
     name: 'chromium',
      use: { ...devices['Desktop Chrome'], 
+     
      //viewport:null,
         //launchOptions:{
          // args:['--start-maximized']
